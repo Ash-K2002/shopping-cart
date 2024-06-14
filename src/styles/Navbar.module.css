@@ -21,6 +21,7 @@
     align-items: center;
     text-decoration: none;
     padding: 2px;
+    color: var(--col1);
 }
 
 .navitem>a:visited{
