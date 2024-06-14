@@ -1,0 +1,13 @@
+.itemdetail{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.itemicon{
+    height: 50vh;
+}
+
+.itemprice>span{
+    font-weight: 900;
+}
+

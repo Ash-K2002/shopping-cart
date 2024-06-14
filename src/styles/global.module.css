@@ -1,0 +1,12 @@
+
+.button1{
+    border: 2px solid var(--col4);
+    border-radius: 4px;
+    padding: 1em;
+}
+
+.button1:hover{
+    background-color: var(--col4);
+    color: var(--col5);
+    cursor: pointer;
+}

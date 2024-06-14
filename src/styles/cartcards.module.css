@@ -1,0 +1,38 @@
+
+.cartitems{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.cartitem{
+    max-width: 400px;
+    border: 2px solid var(--col4);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.cartitemheader{
+    height: 4em;
+}
+
+.cartitemicon{
+    width: 90%;
+    height: 10em;
+    object-fit: contain;
+}
+
+.cartitemdesc>span{
+    font-weight: 900;
+}
+
+.cartitemaction{
+    display: flex;
+    gap: 10px;
+}
+
+.totalPrice{
+    font-weight: 900;
+    font-size: 2em;
+}

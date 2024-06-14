@@ -1,0 +1,43 @@
+
+.shopdeck{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.shopitemlink{
+    text-decoration: none;
+    color: var(--col1);
+}
+
+.shopitemlink:visited{
+    color: var(--col1);
+}
+
+.shopitem{
+    box-sizing: border-box;
+    border: 2px solid var(--col4);
+    border-radius: 10px;
+    padding: 5px;
+    height: 100%;
+    filter: grayscale(1);
+}
+
+.shopitem:hover{
+    filter: grayscale(0);
+    background-color: var(--col3);
+    
+}
+
+
+.shopitem>h3{
+    height: 4em;
+    overflow:hidden;
+}
+
+.shopitem>img{
+    width: 100%;
+    height: 10em;
+    object-fit: contain;
+}
